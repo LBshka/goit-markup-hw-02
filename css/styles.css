@@ -1,5 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
+  color: #434455;
+  background: #ffffff;
 }
 
 a {
@@ -23,39 +25,69 @@ ul {
   overflow: hidden;
 }
 /* ---------------------HEADER------------------- */
-.header-logo-blue {
-  color: blue;
+.header {
 }
-
+.header-navigation {
+}
+.header-logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-white {
+  color: #2e2f42;
+}
+.header-list {
+}
+.header-item {
+}
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.header-menu-link:focus,
 .header-menu-link:hover {
-  color: #404bbf;
+  color: var(--OCEAN, #404bbf);
 }
 
-.header-menu-link-studio:active {
-  color: #404bbf;
+.address {
 }
 
+.address-list {
+}
+
+.address-item {
+}
+
+.address-link {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* --------------------------------------------------------- */
 /* ---------------------------ADDRESS----------------------- */
 
 .address {
-
 }
 
 .address-list {
-
 }
 
 .address-item {
-
 }
 
 .address-link {
@@ -90,14 +122,18 @@ ul {
 }
 
 .hero-service-btn {
+  background-color: #4d5ae5;
   color: var(--WHITE, #fff);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.hero-service-btn:hover {
+.hero-service-btn:hover,
+.hero-service-btn:focus {
+  background-color: #404bbf;
   color: var(--WHITE, #fff);
   font-family: inherit;
   font-size: 16px;
@@ -158,6 +194,7 @@ ul {
 }
 
 .people-list {
+  background-color: #ffffff;
 }
 
 .people-item {
@@ -190,6 +227,7 @@ ul {
 
 /* ---------------- PORTFOLIO ---------------------*/
 .portfolio {
+  background-color: #ffffff;
 }
 
 .portfolio-title {
@@ -234,10 +272,11 @@ ul {
 /* ----------------------------FOOTER---------------------------------- */
 
 .footer {
-  background: var(--NAVY-BLUE, #2e2f42);
+  font-family: "Raleway", sans-serif;
+  background: #2e2f42;
 }
 .footer-menu-link {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -247,7 +286,7 @@ ul {
   text-transform: uppercase;
 }
 .footer-logo {
-  color: var(--IRIS, #4d5ae5);
+  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
