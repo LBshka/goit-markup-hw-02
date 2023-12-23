@@ -26,7 +26,7 @@ ul {
 }
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -55,28 +55,11 @@ ul {
   color: var(--OCEAN, #404bbf);
 }
 
-.address {
-}
-
-.address-list {
-}
-
-.address-item {
-}
-
-.address-link {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 /* --------------------------------------------------------- */
 /* ---------------------------ADDRESS----------------------- */
 
 .address {
+  font-style: normal;
 }
 
 .address-list {
@@ -95,7 +78,8 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -189,10 +173,10 @@ ul {
 }
 
 .people-list {
-  background-color: #ffffff;
 }
 
 .people-item {
+  background-color: #ffffff;
 }
 
 .people-photo {
@@ -276,7 +260,7 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -286,7 +270,7 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
