@@ -114,13 +114,6 @@ ul {
 .hero-service-btn:hover,
 .hero-service-btn:focus {
   background-color: #404bbf;
-  color: var(--WHITE, #fff);
-  font-family: inherit;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
 }
 
 /* --------------------------------------------------------- */
